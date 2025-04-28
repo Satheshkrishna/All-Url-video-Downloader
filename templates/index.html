@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK All URL Video Downloader</title>
+    <link rel="icon" href="{{ url_for('static', filename='wallpaper.jpeg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="sk">
+    <h1>SK All URL Video Downloader</h1>
+    </div>
+    <div class="container">
+        
+        <form action="/download" method="post">
+            <input type="text" name="url" placeholder="Enter Social URL" required>
+            <button type="submit">Download</button>
+        </form>
+       
+    </div>
+    <footer>
+        <p>2025 @ Sadhiesh Krishnan</p>
+    </footer>
+</body>
+</html>
