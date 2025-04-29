@@ -28,5 +28,5 @@ A powerful and lightweight web-based application that allows users to download v
 ```bash
 git clone https://github.com/your-username/All-Url-video-Downloader.git
 cd All-Url-video-Downloader
-pip install -r requirements.txt
+
 python app.py
